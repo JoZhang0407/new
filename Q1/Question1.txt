@@ -1,0 +1,12 @@
+Last Name:Zhang
+First Name:Jo
+Address:290 queen st
+City:Auckland
+State:NZ
+Zip Postal Code:122334
+Phone:+(12)22-222222
+E-mail:jo@gmail.com
+Birth Date:12122011
+Gender:Female
+Starting Session:spring
+Comment Question:addddd

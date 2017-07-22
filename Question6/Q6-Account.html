@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+<title>Bank Account</title>
+</head>
+
+<body style="text-align:center">
+<h1 style="font-family: 'Droid Serif', serif">Please fill in your details</h1>
+<form method="get" action="Account.php" style="text-align:center">
+
+<table align="center" style="font-size:26px">
+  <tr>
+    <td>Name</td>
+    <td><input type="text" name="username" required></td>
+  </tr>
+  
+  <tr>
+     <td>Phone</td>
+     <td><input type="text" name="phone" required></td>
+  </tr>
+  
+  <tr>
+    <td>Address</td>
+    <td><input type="text" name="add" required></td>
+  </tr>
+  
+  <tr>
+     <td>Email</td>
+     <td><input type="email" name="email" required></td>
+  </tr>
+  
+  <tr>
+     <td>Account Number</td>
+     <td><input type="text" name="accountnumber"></td>
+  </tr>
+  <tr>
+     <td>Balance</td>
+     <td><input type="number" name="balance"></td>
+  </tr>
+
+  <tr> 
+      <td>Type of Account</td>
+      <td><select name="type" required>
+      <option>Cheque</option>
+      <option>Saving</option>
+      <option>Credit</option>
+      </select>
+      </td>
+  </tr>
+<hr>
+<tr style="font-size:38px">
+    <td></td>
+  
+	<td><input type="submit" name="submit" value="Submit"></td>
+    <td><a href="Q6-index.html"><input type="button"  value="Back"></a></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
